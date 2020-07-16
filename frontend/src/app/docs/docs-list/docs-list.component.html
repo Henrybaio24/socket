@@ -1,0 +1,5 @@
+<div class="sidenav">
+      <span (click)="addDoc()">Documento Nuevo</span>
+           
+      <span (click)="getDoc(id)" *ngFor="let id of docs | async">{{ id }}</span> 
+</div>
